@@ -1,0 +1,132 @@
+.form{
+    width: 100%;
+    form{
+        display: block;
+        background: #fff;
+        width: 50%;
+        padding: 20px 50px;
+        margin: 30px auto;
+        border-radius: 10px;
+        label{
+            font-size: 20px;
+            display: block;
+        }
+       .table,.server,.amount,.product{
+            text-align: center;
+            margin: 20px 0;
+       }
+       select,input{
+            width: 40%;
+            margin-top: 5px;
+            padding: 5px;
+            outline: none;
+       }
+       p{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+       }
+       button{
+        display: block;
+        padding: 5px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        transition: .3s;
+        margin: 0 auto;
+       }
+       .start-btn{
+            background: rgb(0,145, 255);
+        &:hover{
+            background: rgb(1, 109, 191);
+        }
+       }
+       .add-btn{
+            background: rgb(1, 145, 1);
+            &:hover{
+                background: rgb(1, 88, 1);
+            }
+        }
+        .end-btn{
+            background: rgb(232, 2, 2);
+            margin-top: 20px;
+            &:hover{
+                background: rgb(182, 1, 1);
+            }
+        }
+    }
+    .show{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    table{
+        background: #fff;
+        border-collapse: collapse;
+        margin: 20px auto;
+        border-radius: 10px;
+        th:first-child{
+            border-top-left-radius: 10px;
+        }
+        th:last-child{
+            border-top-right-radius: 10px;
+        }
+        td,th{
+            padding: 15px 30px;
+            text-align: center;
+        }
+        th{
+            background: rgb(0, 145, 255);
+            color: #fff;
+            font-size: 20px;
+        }
+        td{
+            button{
+                padding: 5px 10px;
+                font-size: 16px;
+                background: rgb(255, 0, 0);
+                font-weight: bold;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: .3s;
+                &:hover{
+                    background: rgb(111, 1, 1);
+                }
+            }
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+        tbody{
+            tr{
+                &:hover{
+                    background: #ddd;
+                }
+            }
+        }
+    }
+    h1{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .orders{
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .form{
+        form{
+            width: 100%;
+        }
+        h1{
+            font-size: 24px;
+        }
+    }
+}

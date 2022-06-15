@@ -1,0 +1,335 @@
+nav {
+  background: #0091ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+nav .link {
+  text-decoration: none;
+}
+
+nav .title {
+  width: 30%;
+}
+
+nav .title h2 {
+  font-size: 34px;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav ul {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+nav ul li:hover {
+  color: #ddff00;
+}
+
+@media only screen and (max-width: 450px) {
+  nav {
+    display: block;
+  }
+  nav .title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  nav .title h2 {
+    width: 100%;
+    text-align: center;
+  }
+  nav ul {
+    display: block;
+    width: 100%;
+  }
+  nav ul li {
+    padding: 5px 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.info {
+  overflow-x: auto;
+}
+
+.info table {
+  background: #fff;
+  border-collapse: collapse;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.info table tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.info table tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.info table td, .info table th {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.info table th {
+  background: #0091ff;
+  color: #fff;
+  font-size: 20px;
+}
+
+.info table td button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background: #0091ff;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.info table td button:hover {
+  background: #016dbf;
+}
+
+.info table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.info table tbody tr:hover {
+  background: #ddd;
+}
+
+.form {
+  width: 100%;
+}
+
+.form form {
+  display: block;
+  background: #fff;
+  width: 50%;
+  padding: 20px 50px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.form form label {
+  font-size: 20px;
+  display: block;
+}
+
+.form form .table, .form form .server, .form form .amount, .form form .product {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.form form select, .form form input {
+  width: 40%;
+  margin-top: 5px;
+  padding: 5px;
+  outline: none;
+}
+
+.form form p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form form button {
+  display: block;
+  padding: 5px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin: 0 auto;
+}
+
+.form form .start-btn {
+  background: #0091ff;
+}
+
+.form form .start-btn:hover {
+  background: #016dbf;
+}
+
+.form form .add-btn {
+  background: #019101;
+}
+
+.form form .add-btn:hover {
+  background: #015801;
+}
+
+.form form .end-btn {
+  background: #e80202;
+  margin-top: 20px;
+}
+
+.form form .end-btn:hover {
+  background: #b60101;
+}
+
+.form .show {
+  display: block;
+}
+
+.form .hide {
+  display: none;
+}
+
+.form table {
+  background: #fff;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.form table th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.form table th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.form table td, .form table th {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.form table th {
+  background: #0091ff;
+  color: #fff;
+  font-size: 20px;
+}
+
+.form table td button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background: red;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.form table td button:hover {
+  background: #6f0101;
+}
+
+.form table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.form table tbody tr:hover {
+  background: #ddd;
+}
+
+.form h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.form .orders {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 460px) {
+  .form form {
+    width: 100%;
+  }
+  .form h1 {
+    font-size: 24px;
+  }
+}
+
+.orderDetail {
+  overflow-x: auto;
+}
+
+.orderDetail table {
+  background: #fff;
+  border-collapse: collapse;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.orderDetail table tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.orderDetail table tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.orderDetail table td, .orderDetail table th {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.orderDetail table th {
+  background: #0091ff;
+  color: #fff;
+  font-size: 20px;
+}
+
+.orderDetail table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.orderDetail table tbody h4 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.orderDetail table tbody tr:hover {
+  background: #ddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #edecec;
+}
+/*# sourceMappingURL=style.css.map */

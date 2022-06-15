@@ -1,0 +1,181 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Çörəkdə ət dönər",
+      "price": 3.2
+    },
+    {
+      "id": 2,
+      "name": "Toyuq kotlet",
+      "price": 5.4
+    },
+    {
+      "id": 3,
+      "name": "Çörəkdə toyuq dönər",
+      "price": 2.5
+    }
+  ],
+  "servers": [
+    {
+      "id": 1,
+      "name": "Əli",
+      "surname": "Məmmədov"
+    },
+    {
+      "id": 2,
+      "name": "Murtuz",
+      "surname": "Əliyev"
+    },
+    {
+      "id": 3,
+      "name": "Fidan",
+      "surname": "Əhmədli"
+    }
+  ],
+  "tables": [
+    {
+      "id": "m1"
+    },
+    {
+      "id": "m2"
+    },
+    {
+      "id": "m3"
+    },
+    {
+      "id": "m4"
+    },
+    {
+      "id": "m5"
+    },
+    {
+      "id": "m6"
+    }
+  ],
+  "orders": [
+    {
+      "orders": {
+        "meals": [
+          {
+            "id": 348.86053996519473,
+            "name": "Çörəkdə ət dönər",
+            "amount": "3",
+            "cost": 9.600000000000001,
+            "status": "verildi"
+          }
+        ],
+        "server": "Əli Məmmədov",
+        "totalCost": 9.600000000000001,
+        "status": "sonlanmayib",
+        "table": "m5"
+      },
+      "id": 1
+    },
+    {
+      "orders": {
+        "meals": [
+          {
+            "id": 70.96446307437444,
+            "name": "Toyuq kotlet",
+            "amount": "3",
+            "cost": 16.200000000000003,
+            "status": "verildi"
+          }
+        ],
+        "server": "Fidan Əhmədli",
+        "totalCost": 16.200000000000003,
+        "status": "sonlanmayib",
+        "table": "m4"
+      },
+      "id": 2
+    },
+    {
+      "orders": {
+        "meals": [
+          {
+            "id": 566.8833081057336,
+            "name": "Çörəkdə ət dönər",
+            "amount": "5",
+            "cost": 16,
+            "status": "verildi"
+          },
+          {
+            "id": 65432,
+            "name": "Toyuq kotlet",
+            "amount": "2",
+            "cost": 10.8,
+            "status": "verildi"
+          }
+        ],
+        "server": "Fidan Əhmədli",
+        "totalCost": 16,
+        "status": "sonlanmayib",
+        "table": "m6"
+      },
+      "id": 3
+    },
+    {
+      "orders": {},
+      "id": 4
+    },
+    {
+      "orders": {
+        "meals": [
+          {
+            "id": 328.855296736835,
+            "name": "Toyuq kotlet",
+            "amount": "2",
+            "cost": 10.8,
+            "status": "verildi"
+          }
+        ],
+        "server": "Murtuz Əliyev",
+        "totalCost": 10.8,
+        "status": "sonlanmayib",
+        "table": "m3"
+      },
+      "id": 5
+    },
+    {
+      "orders": {
+        "meals": [
+          {
+            "id": 640.6968301489891,
+            "name": null,
+            "amount": "2",
+            "cost": 10.8,
+            "status": "verildi"
+          }
+        ],
+        "server": "Murtuz Əliyev",
+        "totalCost": 10.8,
+        "status": "sonlanmayib",
+        "table": "m3"
+      },
+      "id": 6
+    },
+    {
+      "orders": {},
+      "id": 7
+    },
+    {
+      "orders": {
+        "meals": [
+          {
+            "id": 264.81847300413233,
+            "name": "Toyuq kotlet",
+            "amount": "6",
+            "cost": 32.400000000000006,
+            "status": "verildi"
+          }
+        ],
+        "server": "Murtuz Əliyev",
+        "totalCost": 32.400000000000006,
+        "status": "sonlanmayib",
+        "table": "m4"
+      },
+      "id": 8
+    }
+  ]
+}

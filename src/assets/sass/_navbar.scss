@@ -1,0 +1,57 @@
+nav{
+    background: rgb(0, 145, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    .link{
+        text-decoration: none;
+    }
+    .title{
+        width: 30%;
+        h2{
+            font-size: 34px;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    ul{
+        width: 65%;
+        display: flex;
+        justify-content: space-evenly;
+        li{
+            list-style: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: #fff;
+            transition: .4s;
+            &:hover{
+                color: rgb(221, 255, 0);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    nav{
+        display: block;
+        .title{
+            text-align: center;
+            width: 100%;
+            margin-bottom: 10px;
+            h2{
+                width: 100%;
+                text-align: center;
+            }
+        }
+        ul{
+            display: block;
+            width: 100%;
+            li{
+                padding: 5px 0;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

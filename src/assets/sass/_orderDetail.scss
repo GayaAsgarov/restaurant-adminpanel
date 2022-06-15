@@ -1,0 +1,40 @@
+.orderDetail{
+    overflow-x: auto;
+    table{
+        background: #fff;
+        border-collapse: collapse;
+        margin: 50px auto;
+        border-radius: 10px;
+        tr:first-child{
+            th:first-child{
+                border-top-left-radius: 10px;
+            }
+            th:last-child{
+                border-top-right-radius: 10px;
+            }
+        }
+        td,th{
+            padding: 15px 30px;
+            text-align: center;
+        }
+        th{
+            background: rgb(0, 145, 255);
+            color: #fff;
+            font-size: 20px;
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+        tbody{
+            h4{
+                text-align: center;
+                padding: 10px 0;
+            }
+            tr{
+                &:hover{
+                    background: #ddd;
+                }
+            }
+        }
+    }
+}
